@@ -1,0 +1,440 @@
+[
+  {
+    "id": "eshram",
+    "officialName": "e-Shram: National Database of Unorganised Workers",
+    "shortName": "e-Shram Card",
+    "shortNameHi": "ई-श्रम कार्ड",
+    "category": "Identity & Social Security",
+    "categoryHi": "पहचान व सामाजिक सुरक्षा",
+    "shortDescription": "National registration and 12-digit UAN card for all informal and unorganised workers to access government benefits.",
+    "shortDescriptionHi": "असंगठित क्षेत्र के सभी कामगारों के लिए राष्ट्रीय पंजीकरण और 12 अंकों का यूएएन कार्ड।",
+    "plainLanguageDescription": "e-Shram is a digital identity card created by the Government of India for daily-wage, construction, domestic, gig, and self-employed informal workers. It brings unorganised workers onto a single central register so future welfare benefits, disaster assistance, and social security programs can be delivered directly.",
+    "plainLanguageDescriptionHi": "ई-श्रम भारत सरकार द्वारा दैनिक वेतनभोगी, निर्माण, घरेलू, गिग और असंगठित कामगारों के लिए बनाया गया डिजिटल पहचान कार्ड है। इससे सभी कामगार एक आधिकारिक रिकॉर्ड में आते हैं ताकि भविष्य की सरकारी योजनाएं सीधे आप तक पहुंच सकें।",
+    "officialUrl": "https://eshram.gov.in/",
+    "sourceUrl": "https://eshram.gov.in/",
+    "sourceTitle": "Ministry of Labour & Employment, Government of India - Official Portal",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Central (All States & UTs)",
+    "eligibilityRules": {
+      "minAge": 16,
+      "maxAge": 59,
+      "allowedOccupations": ["all_unorganised"],
+      "maxIncome": null,
+      "isTaxPayer": false,
+      "hasEpfoEsic": false,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Workers enrolled in organized sector provident funds (EPFO) or Employee State Insurance (ESIC)",
+      "Individuals who pay income tax",
+      "Persons below 16 or above 59 years of age"
+    ],
+    "exclusionsHi": [
+      "ईपीएफओ (EPFO) या ईएसआईसी (ESIC) के सदस्य कामगार",
+      "आयकर (Income Tax) भरने वाले नागरिक",
+      "16 वर्ष से कम या 59 वर्ष से अधिक आयु वाले व्यक्ति"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Aadhaar-linked active mobile number (for OTP)",
+      "Bank savings account number and IFSC code"
+    ],
+    "requiredDocumentsHi": [
+      "आधार कार्ड",
+      "आधार से जुड़ा सक्रिय मोबाइल नंबर (ओटीपी के लिए)",
+      "बैंक बचत खाता नंबर और IFSC कोड"
+    ],
+    "applicationSteps": [
+      "Open eshram.gov.in on your phone or visit your nearest Common Service Centre (CSC).",
+      "Enter your Aadhaar number and the OTP received on your mobile.",
+      "Fill your occupation, permanent address, and basic educational qualification.",
+      "Enter your bank account details for direct benefit transfers.",
+      "Review your details and download your 12-digit UAN e-Shram card instantly for free."
+    ],
+    "applicationStepsHi": [
+      "अपने फोन पर eshram.gov.in खोलें या नजदीकी जन सेवा केंद्र (CSC) जाएं।",
+      "अपना आधार नंबर और मोबाइल पर आया ओटीपी दर्ज करें।",
+      "अपना काम (व्यवसाय), पता और बुनियादी जानकारी भरें।",
+      "अपना बैंक खाता नंबर और IFSC कोड भरें।",
+      "जानकारी जांचकर तुरंत अपना 12 अंकों का ई-श्रम कार्ड मुफ्त में डाउनलोड करें।"
+    ],
+    "disclaimer": "Registration on e-Shram provides a 12-digit UAN identity. It does not automatically guarantee cash handouts or instant pension without enrolling in specific schemes.",
+    "disclaimerHi": "ई-श्रम पर पंजीकरण आपको आधिकारिक पहचान कार्ड देता है। यह किसी भी योजना में स्वतः नकद या पेंशन की गारंटी नहीं देता।"
+  },
+  {
+    "id": "pmsym",
+    "officialName": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+    "shortName": "PM-SYM Pension",
+    "shortNameHi": "पीएम श्रम योगी मानधन पेंशन",
+    "category": "Old Age Pension",
+    "categoryHi": "वृद्धावस्था पेंशन",
+    "shortDescription": "Voluntary contributory pension providing an assured ₹3,000 monthly pension after age 60 for informal workers.",
+    "shortDescriptionHi": "असंगठित कामगारों के लिए 60 वर्ष की आयु के बाद ₹3,000 मासिक सुनिश्चित पेंशन योजना।",
+    "plainLanguageDescription": "If you are an unorganised worker earning ₹15,000 or less per month and aged between 18 and 40, you can deposit a small monthly amount (₹55 to ₹200 depending on your age). The Central Government matches the exact same amount. After you turn 60, you receive a guaranteed ₹3,000 pension every month in your bank account.",
+    "plainLanguageDescriptionHi": "यदि आप 18 से 40 वर्ष के असंगठित कामगार हैं और मासिक आय ₹15,000 तक है, तो आप हर महीने उम्र के अनुसार ₹55 से ₹200 जमा कर सकते हैं। उतनी ही राशि केंद्र सरकार भी जमा करेगी। 60 वर्ष पूरे होने पर आपको ₹3,000 प्रति माह तय पेंशन मिलेगी।",
+    "officialUrl": "https://maandhan.in/",
+    "sourceUrl": "https://maandhan.in/",
+    "sourceTitle": "Ministry of Labour & Employment / Life Insurance Corporation of India (LIC)",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Central (All States & UTs)",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 40,
+      "allowedOccupations": ["all_unorganised"],
+      "maxIncome": 15000,
+      "isTaxPayer": false,
+      "hasEpfoEsic": false,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Workers covered under formal social security like EPFO, ESIC, or government NPS",
+      "Income tax payees",
+      "Individuals aged below 18 or above 40 at the time of initial joining"
+    ],
+    "exclusionsHi": [
+      "संगठित क्षेत्र के कामगार जो EPFO, ESIC या सरकारी NPS से जुड़े हैं",
+      "आयकर देने वाले नागरिक",
+      "जुड़ते समय 18 वर्ष से कम या 40 वर्ष से अधिक आयु वाले व्यक्ति"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Savings Bank Account / Jan Dhan Account with IFSC code",
+      "Initial monthly contribution in cash (₹55 to ₹200 depending on joining age)"
+    ],
+    "requiredDocumentsHi": [
+      "आधार कार्ड",
+      "बचत बैंक खाता या जन धन खाता (IFSC कोड सहित)",
+      "पहले महीने का अंशदान नकद (उम्र अनुसार ₹55 से ₹200)"
+    ],
+    "applicationSteps": [
+      "Visit your nearest Common Service Centre (CSC) with your Aadhaar and Bank Passbook.",
+      "The CSC operator will register your profile on the official maandhan.in portal.",
+      "Pay your first monthly installment in cash at the CSC desk.",
+      "Sign the bank auto-debit mandate form so future monthly contributions are debited automatically from your bank account.",
+      "Receive your printed Shram Yogi Pension Card (SPAN) immediately."
+    ],
+    "applicationStepsHi": [
+      "अपने आधार कार्ड और बैंक पासबुक के साथ नजदीकी सीएससी (CSC) केंद्र जाएं।",
+      "सीएससी संचालक आपका पंजीकरण maandhan.in पोर्टल पर करेगा।",
+      "पहले महीने की किस्त सीएससी काउंटर पर नकद जमा करें।",
+      "बैंक ऑटो-डेबिट फॉर्म पर हस्ताक्षर करें ताकि हर महीने किस्त बैंक से कटती रहे।",
+      "अपना श्रम योगी पेंशन कार्ड (SPAN) तुरंत प्राप्त करें।"
+    ],
+    "disclaimer": "PM-SYM requires regular monthly contributions until age 60. Pension payout begins strictly after reaching 60 years of age.",
+    "disclaimerHi": "पीएम-SYM में 60 वर्ष की आयु तक नियमित किस्त जमा करनी होती है। ₹3,000 की पेंशन 60 वर्ष पूरे होने के बाद ही शुरू होती है।"
+  },
+  {
+    "id": "pmsvanidhi",
+    "officialName": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "shortName": "PM SVANidhi Loan",
+    "shortNameHi": "पीएम स्वनिधि रेहड़ी-पटरी ऋण",
+    "category": "Micro-Credit & Working Capital",
+    "categoryHi": "कार्यशील पूंजी ऋण",
+    "shortDescription": "Collateral-free working capital micro-loan of ₹10,000, ₹20,000 & ₹50,000 with 7% interest subsidy for street vendors.",
+    "shortDescriptionHi": "रेहड़ी-पटरी विक्रेताओं के लिए बिना गारंटी ₹10,000, ₹20,000 और ₹50,000 का किफ़ायती ऋण व 7% ब्याज सब्सिडी।",
+    "plainLanguageDescription": "PM SVANidhi provides working capital loans without collateral for urban and peri-urban street vendors, hawkers, thelawalas, and fruit/vegetable sellers. You start with ₹10,000 for 1 year. If you repay on time, you get a 7% annual interest cashback subsidy into your bank and become eligible for ₹20,000 in the second year, and up to ₹50,000 in the third.",
+    "plainLanguageDescriptionHi": "पीएम स्वनिधि शहरी और अर्ध-शहरी रेहड़ी-पटरी, ठेला, फल-सब्जी विक्रेताओं के लिए बिना किसी गारंटी का लोन है। पहले साल ₹10,000 का ऋण मिलता है। समय पर चुकाने पर 7% ब्याज छूट मिलती है और अगले चरण में ₹20,000 व ₹50,000 तक का लोन मिलता है।",
+    "officialUrl": "https://pmsvanidhi.mohua.gov.in/",
+    "sourceUrl": "https://pmsvanidhi.mohua.gov.in/",
+    "sourceTitle": "Ministry of Housing and Urban Affairs (MoHUA), Government of India",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Urban and Peri-Urban Areas across India",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": null,
+      "allowedOccupations": ["street_vendor"],
+      "maxIncome": null,
+      "isTaxPayer": null,
+      "hasEpfoEsic": null,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Non-vending occupations (e.g. factory workers, farm workers)",
+      "Vendors without Certificate of Vending, ULB identity card, or Town Vending Committee recommendation letter"
+    ],
+    "exclusionsHi": [
+      "गैर-विक्रेता कार्य (जैसे कारखाने या खेतों में काम करने वाले)",
+      "जिनके पास वेंडिंग प्रमाण पत्र, नगर निकाय पहचान पत्र या सिफारिश पत्र (LoR) न हो"
+    ],
+    "requiredDocuments": [
+      "Certificate of Vending (CoV) OR Urban Local Body (ULB) Identity Card OR Letter of Recommendation (LoR)",
+      "Aadhaar Card",
+      "Active Bank Account passbook or statement",
+      "Aadhaar-linked mobile phone number"
+    ],
+    "requiredDocumentsHi": [
+      "वेंडिंग प्रमाण पत्र (CoV) या नगर निकाय (ULB) पहचान पत्र या सिफारिश पत्र (LoR)",
+      "आधार कार्ड",
+      "बैंक बचत खाता पासबुक या विवरण",
+      "आधार से जुड़ा सक्रिय मोबाइल नंबर"
+    ],
+    "applicationSteps": [
+      "Check your name in the Municipal street vendor survey list or apply for a Letter of Recommendation (LoR) via pmsvanidhi.mohua.gov.in.",
+      "Visit pmsvanidhi.mohua.gov.in or your local Common Service Centre (CSC) / Municipal Ward Office.",
+      "Select your lending bank or microfinance institution.",
+      "Submit application for the 1st tranche loan of ₹10,000.",
+      "Upon loan disbursal, repay monthly on time to claim 7% interest subsidy and qualify for higher tranches."
+    ],
+    "applicationStepsHi": [
+      "नगर पालिका वेंडिंग सूची में नाम जांचें या pmsvanidhi.mohua.gov.in से सिफारिश पत्र (LoR) लें।",
+      "पीएम स्वनिधि पोर्टल या नजदीकी जन सेवा केंद्र (CSC)/नगर पालिका वार्ड कार्यालय जाएं।",
+      "अपना पसंदीदा बैंक या वित्तीय संस्थान चुनें।",
+      "प्रथम चरण के ₹10,000 ऋण के लिए आवेदन जमा करें।",
+      "समय पर मासिक किस्त भरकर 7% ब्याज सब्सिडी प्राप्त करें और ₹20,000 व ₹50,000 के अगले लोन के पात्र बनें।"
+    ],
+    "disclaimer": "PM SVANidhi is a bank loan that must be repaid monthly. It is not a free government grant. Timely repayment unlocks interest subsidies and higher credit limits.",
+    "disclaimerHi": "पीएम स्वनिधि एक बैंक ऋण है जिसे किस्तों में चुकाना होता है। यह मुफ्त अनुदान नहीं है। समय पर भुगतान से ब्याज में 7% छूट मिलती है।"
+  },
+  {
+    "id": "pmsby",
+    "officialName": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "shortName": "PMSBY Accident Insurance",
+    "shortNameHi": "सुरक्षा बीमा योजना (दुर्घटना बीमा)",
+    "category": "Accident Insurance",
+    "categoryHi": "दुर्घटना बीमा",
+    "shortDescription": "Affordable accidental death and full disability insurance cover of ₹2 Lakh for just ₹20 per year.",
+    "shortDescriptionHi": "मात्र ₹20 प्रति वर्ष में ₹2 लाख का दुर्घटना मृत्यु और पूर्ण विकलांगता बीमा सुरक्षा।",
+    "plainLanguageDescription": "PMSBY is a government-backed accident insurance policy for any person aged 18 to 70 with a bank or post office account. For only ₹20 auto-debited once a year from your bank account, your nominee receives ₹2 Lakh in the tragic event of accidental death, or you receive ₹2 Lakh for total permanent disability (₹1 Lakh for partial disability).",
+    "plainLanguageDescriptionHi": "यह 18 से 70 वर्ष के बैंक या डाकघर खाताधारकों के लिए सरकार समर्थित दुर्घटना बीमा योजना है। साल में केवल एक बार ₹20 आपके बैंक से कटते हैं और दुर्घटना में मृत्यु या स्थायी विकलांगता पर ₹2 लाख (आंशिक विकलांगता पर ₹1 लाख) की सुरक्षा मिलती है।",
+    "officialUrl": "https://www.jansuraksha.gov.in/",
+    "sourceUrl": "https://www.jansuraksha.gov.in/",
+    "sourceTitle": "Department of Financial Services, Ministry of Finance, Government of India",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Central (All States & UTs)",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "allowedOccupations": ["all_unorganised"],
+      "maxIncome": null,
+      "isTaxPayer": null,
+      "hasEpfoEsic": null,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Persons below 18 or above 70 years of age",
+      "Individuals without a savings bank or post office account",
+      "Failure to maintain minimum balance for annual ₹20 deduction before May 31st each year",
+      "Deaths resulting from natural causes or non-accidental illness"
+    ],
+    "exclusionsHi": [
+      "18 वर्ष से कम या 70 वर्ष से अधिक आयु वाले व्यक्ति",
+      "जिनके पास बचत बैंक या डाकघर खाता नहीं है",
+      "31 मई से पहले खाते में ₹20 का न्यूनतम बैलेंस न होना",
+      "प्राकृतिक बीमारी या सामान्य कारणों से हुई मृत्यु (केवल दुर्घटना कवर है)"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Active Bank or Post Office Savings Account passbook",
+      "Signed auto-debit consent form with nominee details"
+    ],
+    "requiredDocumentsHi": [
+      "आधार कार्ड",
+      "सक्रिय बैंक या डाकघर बचत खाता पासबुक",
+      "नामित व्यक्ति (नॉमिनी) विवरण सहित ऑटो-डेबिट सहमति फॉर्म"
+    ],
+    "applicationSteps": [
+      "Visit the bank branch or post office where you have an active savings account.",
+      "Ask for the PMSBY enrollment form (available in regional languages).",
+      "Fill your details, nominee name, and sign the ₹20 annual auto-debit consent.",
+      "Keep at least ₹20 in your account before May 31st every year for auto-renewal.",
+      "Collect the acknowledgment slip / insurance certificate from the bank."
+    ],
+    "applicationStepsHi": [
+      "उस बैंक शाखा या डाकघर जाएं जहां आपका बचत खाता है।",
+      "पीएमएसबीवाई (PMSBY) आवेदन फॉर्म मांगें।",
+      "अपनी जानकारी और नॉमिनी का नाम भरकर ₹20 ऑटो-डेबिट फॉर्म पर हस्ताक्षर करें।",
+      "हर साल स्वतः नवीनीकरण के लिए मई माह में खाते में कम से कम ₹20 रखें।",
+      "बैंक से बीमा पावती रसीद या प्रमाणपत्र प्राप्त करें।"
+    ],
+    "disclaimer": "PMSBY covers accidental death and permanent disability only. It does not cover death caused by natural illness or old age.",
+    "disclaimerHi": "यह योजना केवल दुर्घटना में हुई मृत्यु या विकलांगता को कवर करती है। प्राकृतिक बीमारी या सामान्य मृत्यु इसमें शामिल नहीं है।"
+  },
+  {
+    "id": "pmjjby",
+    "officialName": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "shortName": "PMJJBY Life Insurance",
+    "shortNameHi": "जीवन ज्योति बीमा योजना (जीवन बीमा)",
+    "category": "Life Insurance",
+    "categoryHi": "जीवन बीमा",
+    "shortDescription": "Term life insurance of ₹2 Lakh covering death due to any reason for ₹436 per year.",
+    "shortDescriptionHi": "मात्र ₹436 प्रति वर्ष में किसी भी कारण से मृत्यु पर परिवार को ₹2 लाख का जीवन बीमा।",
+    "plainLanguageDescription": "PMJJBY offers one-year renewable life insurance coverage of ₹2 Lakh to any person aged 18 to 50 who has a bank or post office account. If the insured person passes away due to any reason (illness, natural cause, or accident), their family receives ₹2 Lakh to support their livelihood.",
+    "plainLanguageDescriptionHi": "यह 18 से 50 वर्ष के बैंक खाताधारकों के लिए 1 साल का नवीकरणीय जीवन बीमा है। साल में ₹436 का प्रीमियम बैंक से कटता है। यदि बीमित व्यक्ति की किसी भी कारण से (बीमारी या दुर्घटना) मृत्यु हो जाती है, तो परिवार को ₹2 लाख की आर्थिक सहायता मिलती है।",
+    "officialUrl": "https://www.jansuraksha.gov.in/",
+    "sourceUrl": "https://www.jansuraksha.gov.in/",
+    "sourceTitle": "Department of Financial Services, Ministry of Finance, Government of India",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Central (All States & UTs)",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 50,
+      "allowedOccupations": ["all_unorganised"],
+      "maxIncome": null,
+      "isTaxPayer": null,
+      "hasEpfoEsic": null,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Persons below 18 or above 50 years at entry (coverage continues up to age 55 if renewed annually)",
+      "Initial 30-day waiting period from enrollment during which claims for non-accidental death are not covered",
+      "Failure to maintain ₹436 balance for May auto-debit renewal"
+    ],
+    "exclusionsHi": [
+      "जुड़ते समय 18 वर्ष से कम या 50 वर्ष से अधिक आयु (नवीनीकरण पर 55 वर्ष तक सुरक्षा)",
+      "पंजीकरण के पहले 30 दिनों में गैर-दुर्घटना मृत्यु पर दावा लागू नहीं होता (30 दिन का वेटिंग पीरियड)",
+      "मई माह में नवीनीकरण के लिए खाते में ₹436 न होना"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Active Bank or Post Office Savings Account passbook",
+      "Signed auto-debit consent form with nominee details"
+    ],
+    "requiredDocumentsHi": [
+      "आधार कार्ड",
+      "सक्रिय बैंक या डाकघर बचत खाता पासबुक",
+      "नॉमिनी विवरण सहित ऑटो-डेबिट सहमति फॉर्म"
+    ],
+    "applicationSteps": [
+      "Visit the bank or post office branch holding your savings account.",
+      "Fill out the PMJJBY declaration form with your nominee information.",
+      "Authorize auto-debit of ₹436 from your account.",
+      "Keep your bank passbook updated with the debit transaction as reference.",
+      "Maintain active balance in May every year for automatic renewal."
+    ],
+    "applicationStepsHi": [
+      "अपने बचत खाते वाली बैंक शाखा या डाकघर जाएं।",
+      "पीएमजेजेबीवाई (PMJJBY) घोषणा पत्र में अपनी व नॉमिनी की जानकारी भरें।",
+      "खाते से ₹436 कटने के लिए सहमति पत्र दें।",
+      "बैंक पासबुक में लेनदेन दर्ज कराकर पावती संभाल कर रखें।",
+      "हर साल मई में नवीनीकरण के लिए खाते में पर्याप्त राशि रखें।"
+    ],
+    "disclaimer": "PMJJBY covers death due to any cause. It does not provide survival benefits or maturity refunds if no claim occurs during the policy year.",
+    "disclaimerHi": "यह शुद्ध मियादी जीवन बीमा है। इसमें साल के दौरान दावा न होने पर जमा राशि वापस नहीं मिलती।"
+  },
+  {
+    "id": "bocw",
+    "officialName": "Building and Other Construction Workers (BoCW) Welfare Board Registration",
+    "shortName": "Construction (BoCW) Card",
+    "shortNameHi": "भवन एवं अन्य सन्निर्माण कर्मकार (BoCW) कार्ड",
+    "category": "Construction Welfare",
+    "categoryHi": "निर्माण श्रमिक कल्याण",
+    "shortDescription": "State welfare board benefits including tool assistance, children scholarships, and accidental relief for construction workers.",
+    "shortDescriptionHi": "निर्माण मजदूरों के लिए औजार सहायता, बच्चों की छात्रवृत्ति, दुर्घटना सहायता व कल्याणकारी योजनाएं।",
+    "plainLanguageDescription": "If you work in construction, masonry, painting, plumbing, carpentry, stone cutting, or electrical fitting and have worked at least 90 days in the past 12 months, you can register with your State BoCW Board. Registered workers receive dedicated state benefits including tool purchase grants, safety equipment, children educational stipends, and daughter marriage aid.",
+    "plainLanguageDescriptionHi": "यदि आप राजमिस्त्री, बढ़ई, पेंटर, प्लंबर, पत्थर घिसाई, बेलदार या निर्माण कार्य करते हैं और पिछले 12 महीनों में कम से कम 90 दिन काम किया है, तो आप राज्य निर्माण कल्याण बोर्ड में पंजीकृत हो सकते हैं। इससे औजार सहायता, बच्चों की छात्रवृत्ति, विवाह सहायता आदि लाभ मिलते हैं।",
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bocwwb",
+    "sourceUrl": "https://labour.gov.in/schemes/building-and-other-construction-workers-welfare-cess-act-1996",
+    "sourceTitle": "Ministry of Labour & Employment / State BoCW Welfare Boards",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "State-administered (BoCW Act 1996)",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "allowedOccupations": ["construction_worker"],
+      "maxIncome": null,
+      "isTaxPayer": false,
+      "hasEpfoEsic": false,
+      "minWorkDays": 90,
+      "requiresBankAccount": true
+    },
+    "exclusions": [
+      "Workers who have completed fewer than 90 days in construction work during the preceding 12 months",
+      "Persons employed in supervisory, administrative, or managerial capacities",
+      "Persons aged 60 or above"
+    ],
+    "exclusionsHi": [
+      "जिन्होंने पिछले 12 महीनों में 90 दिन से कम निर्माण कार्य किया हो",
+      "प्रबंधकीय या प्रशासनिक पदों पर काम करने वाले कर्मचारी",
+      "60 वर्ष से अधिक आयु वाले कामगार"
+    ],
+    "requiredDocuments": [
+      "90-day work certificate signed by contractor, employer, or registered labour union",
+      "Age proof (Aadhaar Card, Voter ID, or School Leaving Certificate)",
+      "Bank account passbook copy",
+      "3 passport-size photographs"
+    ],
+    "requiredDocumentsHi": [
+      "ठेकेदार, नियोक्ता या पंजीकृत मजदूर यूनियन द्वारा 90 दिन कार्य का प्रमाण पत्र",
+      "आयु प्रमाण (आधार कार्ड, मतदाता पहचान पत्र)",
+      "बैंक बचत खाता पासबुक प्रति",
+      "3 पासपोर्ट आकार के फोटो"
+    ],
+    "applicationSteps": [
+      "Obtain the 90-day construction work proof from your contractor, builder, or labour union.",
+      "Visit your State's BoCW portal online or visit the local Labour Commissioner Office / CSC.",
+      "Submit application Form 27 along with your work certificate, Aadhaar, and bank details.",
+      "Pay the nominal registration fee (usually ₹20 to ₹50 depending on your state).",
+      "Receive your physical or digital BoCW Labour Card with your unique registration number."
+    ],
+    "applicationStepsHi": [
+      "अपने ठेकेदार, बिल्डर या मजदूर यूनियन से 90 दिन कार्य का प्रमाण पत्र बनवाएं।",
+      "अपने राज्य के BoCW पोर्टल पर जाएं या नजदीकी श्रम कल्याण कार्यालय/सीएससी जाएं।",
+      "आवेदन फॉर्म के साथ 90 दिन का प्रमाण पत्र, आधार और बैंक पासबुक संलग्न करें।",
+      "राज्य अनुसार निर्धारित मामूली शुल्क (₹20 से ₹50) जमा करें।",
+      "सत्यापन के बाद अपना BoCW श्रमिक कार्ड प्राप्त करें।"
+    ],
+    "disclaimer": "Exact benefits and grant amounts vary by state board. Registration must be renewed annually or every 3 years according to your state rules.",
+    "disclaimerHi": "योजना के लाभ और सहायता राशि प्रत्येक राज्य के बोर्ड अनुसार अलग हो सकती है। इसे समय-समय पर नवीनीकृत कराना जरूरी होता है।"
+  },
+  {
+    "id": "pmjay",
+    "officialName": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+    "shortName": "Ayushman Bharat Health Card",
+    "shortNameHi": "आयुष्मान भारत गोल्डन कार्ड",
+    "category": "Health & Hospitalization",
+    "categoryHi": "स्वास्थ्य व अस्पताल उपचार",
+    "shortDescription": "Cashless secondary and tertiary hospitalization cover of up to ₹5 Lakh per year per family across empaneled hospitals.",
+    "shortDescriptionHi": "सूचीबद्ध सरकारी व निजी अस्पतालों में प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस इलाज।",
+    "plainLanguageDescription": "Ayushman Bharat PM-JAY is the world's largest government-funded health assurance scheme. It provides eligible low-income and informal worker families up to ₹5 Lakh each year for hospitalization, surgery, and treatment at empaneled public and private hospitals across India, without having to pay upfront cash.",
+    "plainLanguageDescriptionHi": "आयुष्मान भारत योजना पात्र गरीब और असंगठित कामगार परिवारों को सूचीबद्ध अस्पतालों में ₹5 लाख प्रति वर्ष तक का कैशलेस इलाज देती है। अस्पताल में भर्ती होने पर डॉक्टर परामर्श, जांच, दवाइयां और ऑपरेशन का खर्च योजना से सीधे मिलता है।",
+    "officialUrl": "https://pmjay.gov.in/",
+    "sourceUrl": "https://pmjay.gov.in/",
+    "sourceTitle": "National Health Authority (NHA), Ministry of Health & Family Welfare",
+    "lastVerifiedDate": "2025-01-15",
+    "scope": "Central & Participating States",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": null,
+      "allowedOccupations": ["all_unorganised"],
+      "maxIncome": 15000,
+      "isTaxPayer": false,
+      "hasEpfoEsic": false
+    },
+    "exclusions": [
+      "Families paying income tax or professional tax",
+      "Households owning motorized 3 or 4 wheelers or mechanized agricultural equipment as per SECC census criteria",
+      "Government employees or organized sector workers with corporate health insurance"
+    ],
+    "exclusionsHi": [
+      "आयकर या व्यावसायिक कर भरने वाले परिवार",
+      "SECC डेटा अनुसार पक्के तीन/चार पहिया वाहन या ट्रैक्टर रखने वाले परिवार",
+      "सरकारी कर्मचारी या संगठित क्षेत्र के कर्मचारी जिन्हें स्वास्थ्य बीमा मिलता है"
+    ],
+    "requiredDocuments": [
+      "Ration Card (NFSA / BPL / Antyodaya) or PM-JAY Family ID letter",
+      "Aadhaar Card for every family member",
+      "Active mobile phone number"
+    ],
+    "requiredDocumentsHi": [
+      "राशन कार्ड (राष्ट्रीय खाद्य सुरक्षा / बीपीएल / अंत्योदय) या परिवार पहचान पत्र",
+      "परिवार के सभी सदस्यों का आधार कार्ड",
+      "सक्रिय मोबाइल नंबर"
+    ],
+    "applicationSteps": [
+      "Check your family eligibility online at mera.pmjay.gov.in or by calling 14555 toll-free.",
+      "Visit any empaneled government/private hospital's 'Ayushman Mitra' desk or nearest CSC.",
+      "Provide your Ration Card and Aadhaar for biometric/OTP e-KYC verification.",
+      "Get your verified Ayushman Card generated.",
+      "Show this card at any empaneled hospital nationwide to get cashless hospital admission and treatment up to ₹5 Lakh per year."
+    ],
+    "applicationStepsHi": [
+      "mera.pmjay.gov.in पर या टोल-फ्री नंबर 14555 पर अपनी पात्रता जांचें।",
+      "किसी भी सूचीबद्ध अस्पताल के 'आयुष्मान मित्र' काउंटर या सीएससी पर जाएं।",
+      "राशन कार्ड और आधार कार्ड प्रस्तुत कर बायोमेट्रिक ई-केवाईसी कराएं।",
+      "सत्यापन के बाद अपना आयुष्मान कार्ड बनवाएं।",
+      "देशभर के किसी भी सूचीबद्ध अस्पताल में भर्ती के समय कार्ड दिखाकर ₹5 लाख तक का कैशलेस इलाज कराएं।"
+    ],
+    "disclaimer": "PM-JAY covers inpatient hospitalization (minimum 24 hours stay) and specified day-care procedures in empaneled hospitals. It does not reimburse routine outpatient OPD clinic visits unless linked to hospitalization.",
+    "disclaimerHi": "यह योजना केवल अस्पताल में भर्ती होने (कम से कम 24 घंटे) या विशिष्ट सर्जरी पर लागू होती है। सामान्य ओपीडी क्लिनिक परामर्श इसमें शामिल नहीं है।"
+  }
+]
